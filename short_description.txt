@@ -1,1 +1,0 @@
-Better way to manage 2-step authentication with seamless sync, backup & restore
