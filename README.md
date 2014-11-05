@@ -7,15 +7,15 @@ Thanks for your interest in helping me to localize [Authenticator Plus](https://
 
  1. Download/clone this repository to your local machine.
 
- 2. The `strings` that need translated are contained within three files in the `values/` directory:
-     * <b>`strings.xml`</b> contains the application `strings` that will need to be translated.
-     * <b>`strings_wear.xml`</b> contains the Android Wear applicatino `strings` that will need to be translated.
-     * <b>`short_description.txt`</b> contains the "short description" promo message
+ 2. The `strings` that need translated are contained within four files in the `values/` directory:
+     * <b>`strings.xml`</b> contains the mobile application `strings` that will need to be translated.
+     * <b>`strings_wear.xml`</b> contains the Android Wear application `strings` that will need to be translated.
+     * <b>`google_play_short_description.txt`</b> contains the "short description" promo message
       that will be displayed in the Play Store (note that the Play Store enforces an *80 character limit*).
-     * <b>`full_description.txt`</b> contains the "full description" message
+     * <b>`google_play_full_description.txt`</b> contains the "full description" message
       that will be displayed in the Play Store (note that the Play Store enforces a *4000 character limit*).
- 3. Translated `strings` should go in the `values-XXX/strings.xml`, `values-XXX/short_description.txt`,
-    and `values-XXX/full_description.txt` files, where `XXX` is your language's
+ 3. Translated `strings` should go in the `values-XXX/strings.xml`, `values-XXX/strings_wear.xml`, `values-XXX/google_play_short_description.txt`
+    and `values-XXX/google_play_short_description.txt` files, where `XXX` is your language's
     [locale code](http://www.science.co.il/Language/Locale-codes.asp).
 
  4. <b>IMPORTANT:</b> Remember to double check your translation for typos, copy/paste
@@ -30,4 +30,4 @@ Thanks for your interest in helping me to localize [Authenticator Plus](https://
 
  6. When the translation is published, I'll add your name to the About activity... it's my way of saying thanks! :)
 
- Credits : thanks to [alexjlockwood](https://github.com/alexjlockwood/android-2048-strings)for github translatin repo idea and base template.
+ Credits : thanks to [alexjlockwood](https://github.com/alexjlockwood/android-2048-strings) for github translation repo idea and base template.
