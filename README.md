@@ -7,14 +7,14 @@ Thanks for your interest in helping me to localize [Authenticator Plus](https://
 
  1. Download/clone this repository to your local machine.
 
- 2. The `string`s that need translated are contained within three files in the `values/` directory:
-     * <b>`strings.xml`</b> contains the application `string`s that will need to be translated.
-     * <b>`strings_wear.xml`</b> contains the Android Wear applicatino `string`s that will need to be translated.
+ 2. The `strings` that need translated are contained within three files in the `values/` directory:
+     * <b>`strings.xml`</b> contains the application `strings` that will need to be translated.
+     * <b>`strings_wear.xml`</b> contains the Android Wear applicatino `strings` that will need to be translated.
      * <b>`short_description.txt`</b> contains the "short description" promo message
       that will be displayed in the Play Store (note that the Play Store enforces an *80 character limit*).
      * <b>`full_description.txt`</b> contains the "full description" message
       that will be displayed in the Play Store (note that the Play Store enforces a *4000 character limit*).
- 3. Translated `string`s should go in the `values-XXX/strings.xml`, `values-XXX/short_description.txt`,
+ 3. Translated `strings` should go in the `values-XXX/strings.xml`, `values-XXX/short_description.txt`,
     and `values-XXX/full_description.txt` files, where `XXX` is your language's
     [locale code](http://www.science.co.il/Language/Locale-codes.asp).
 
