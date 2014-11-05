@@ -1,0 +1,33 @@
+Authenticator Plus generates 2-step verification codes to protect your accounts with your password and phone / tablet.
+
+With Authenticator Plus you can seamlessly sync and manage all your 2-step enabled accounts in phones / tablet / kindle.
+
+
+• <b>Sync Across Devices</b> - seamlessly access and open accounts from you phone, tablet or Amazon Kindle
+
+
+• <b>Automatic backup / restore</b> - accounts are automatically backed up to cloud (Google Drive or Dropbox) and can be restored easily
+
+
+• <b>Secure</b> - 256-bit AES encryption and PIN lock for additional security
+
+
+• <b>Advanced security</b> - hardware backed encryption protects your account even  in rooted devices
+
+
+• <b>Organize</b> - group accounts with categories and re-order frequently used accounts to top
+
+
+• <b>Personalize</b> - change themes and displays account logos for easier lookup
+
+
+• <b>Import from Google Authenticator</b> - accounts can be imported from Google Authenticator in rooted devices
+
+
+• <b>WinAuth support</b> - works with WinAuth (https://winauth.com/)
+
+
+<b>Technical Details</b> - http://design.authenticatorplus.com
+
+
+<b>Help Docs</b> - http://help.authenticatorplus.com
