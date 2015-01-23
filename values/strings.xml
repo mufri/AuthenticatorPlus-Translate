@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Title displayed at the toolbar when adding new OTP account manually -->
+    <string name="enter_key_title">Add Account Manually</string>
+
+    <!--
+       Button on the Manual Account Entry page to add the account the details of which the user
+       is entering on the page.
+    -->
+    <string name="enter_key_page_add_button">Add</string>
+
+    <!-- Title displayed at the toolbar in add a new account screen -->
+    <string name="add_account_menu_item">Add account</string>
+
+    <!-- Button on the Add Account screen to manually enter account details-->
+    <string name="button_add_account_manual_entry">Manually add account</string>
+
+    <!-- Button on the Add Account screen to add battle.net account -->
+    <!-- NOTE : DO NOT TRANSLATE &#174; -->
+    <string name="button_add_account_battlenet">Add battle.net&#174; Account</string>
+
+    <!-- Button on the Add Account screen to add RSA Securid account-->
+    <!-- NOTE : DO NOT TRANSLATE &#174; -->
+    <string name="button_add_account_hardware">Add RSA SecurID&#174; Software Token</string>
+
+    <!--
+       Button on the Add Account screen that lets the user add an account by scanning a QR
+       code.
+    -->
+    <string name="button_add_account_scan_barcode">Scan QR code</string>
+
+    <!-- Form field to enter account name (part of the form used for manually adding account) -->
+    <string name="enter_account_label">Account name</string>
+    <string name="enter_account_empty">Cannot save empty account name</string>
+
+    <!-- Hint message displayed in the secret key field before user starts typing there -->
+    <string name="enter_key_hint">Secret / Key provided</string>
+
+    <!-- Error message displayed if user enters a key that is shorter than allowed minimum -->
+    <string name="enter_key_too_short">Key value is too short</string>
+
+    <!-- Error message displayed if user enters a key with an illegal character -->
+    <string name="enter_key_illegal_char">Key value has illegal character</string>
+
+    <!-- Title for the error message dialog displayed after scanning invalid QR code -->
+    <string name="error_title">Error</string>
+
+    <!-- Error message displayed when scanned QR code is not recognized as valid format -->
+    <string name="error_uri">Key not recognized.</string>
+
+    <!-- Alternative message displayed when scanned QR code is not recognized as valid key -->
+    <string name="error_qr">Cannot interpret QR code.</string>
+
+    <!-- Confirmation message displayed in a toast after adding new account -->
+    <string name="secret_saved">Secret saved</string>
+
+    <!--
+       Question asking user to confirm adding a new account, the details of which were obtained
+       by scanning a QR code or provided by the web browser.
+    -->
+    <string name="save_key_message">Save key for</string>
+
+    <!-- Error message displayed if the scanned QR code contains an empty key -->
+    <string name="error_empty_secret">Cannot save empty secret</string>
+
+    <!-- Used for HOTP accounts: Label displayed before the integrity check, used to verify key was entered correctly -->
+    <string name="check_code_title">Integrity check value</string>
+
+    <!-- Used for HOTP accounts: Menu item user selects to view the key integrity check for a particular account -->
+    <string name="check_code_menu_item">Check key value</string>
+
+    <!--
+       Title for error message dialog when user attempts to scan a barcode but does not
+       have the barcode scanner application installed.
+    -->
+    <string name="install_dialog_title">Install barcode scanner?</string>
+
+    <!-- Error message displayed when user attempts to scan a barcode without a scanner app. -->
+    <string name="install_dialog_message">To scan barcodes containing keys, you must install the ZXing barcode scanner.</string>
+
+    <!-- Amazon app store specific : Error message displayed when user attempts to scan a barcode without a scanner app. -->
+    <string name="install_dialog_message_amazon">To scan barcodes containing keys, you must install barcode scanner.</string>
+
+    <!-- Generic app store specific : Error message displayed when user attempts to scan a barcode without a scanner app. -->
+    <string name="install_dialog_message_samsung">To scan barcodes containing keys, install barcode scanner of your choice and try again.</string>
+
+    <!-- Amazon app store specific : Onscreen message displayed after amazon app store is opened. -->
+    <string name="install_dialog_toast_amazon">Install any of the available barcode scanner from Amazon App store.</string>
+
+    <!-- Text on button user clicks to start installation of barcode scanning app -->
+    <string name="install_button">Install</string>
+
+    <!-- Used for HOTP accounts: Information displayed on the check-key screen, explaining use of the integrity check -->
+    <!-- NOTE : DO NOT TRANSLATE message inside xliff:g tag -->
+    <string name="check_code">  To check that you have the correct key value for <xliff:g id="account" example="mallory@gmail.com">%1$s</xliff:g>  verify that the value here matches the integrity check value provided
+  by the server:&lt;br/></string>
+
+    <!--Used for HOTP accounts:
+       Error message displayed on check-integrity code page,
+       if there is an error computing the integrity code for the key.
+    -->
+    <string name="general_security_exception">General security exception</string>
+
+    <!--Used for HOTP accounts:  Error message displayed on check-integrity code page, if key is corrupted. -->
+    <string name="decoding_exception">Decoding exception</string>
+
+    <!-- Button on manual account entry page, adds the account -->
+    <string name="save">Save</string>
+
+    <!-- Button on manual account entry page, cancels adding account, returns to main page -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Menu item when long-pressing on account, used to remove the account -->
+    <string name="context_menu_remove_account">Delete account</string>
+
+    <!-- Menu item when long-pressing on account, used to set logo manually -->
+    <string name="context_menu_set_logo">Set logo</string>
+
+    <!-- Menu item when long-pressing on account, used to add selected accounts to category -->
+    <string name="context_menu_set_category">Add to category</string>
+
+    <!-- Menu item when long-pressing on account, used to rearrange accounts -->
+    <string name="context_menu_rearrange">Rearrange</string>
+
+    <!-- Onscreen message displayed when user press an account to indicate PIN is copied to clipboard -->
+    <string name="context_menu_copy_clipboard">Code copied to clipboard</string>
+
+    <!-- Shown when user is trying to remove an account-->
+    <!-- Title when multiple accounts are selected -->
+    <string name="remove_selected_accounts">Remove selected accounts?</string>
+
+    <!-- Title when single account is selected to remove -->
+    <!-- NOTE : DO NOT TRANSLATE message inside xliff:g tag -->
+    <string name="remove_account_dialog_title">    Remove <xliff:g id="account" example="mallory@gmail.com">%1$s</xliff:g>?</string>
+
+    <!-- Remove/Delete button in the dialog displayed when the user attempts to remove an account. -->
+    <string name="remove_account_dialog_button_remove">Remove account</string>
+
+    <!--
+       Text (HTML) of the dialog displayed when the user attempts to delete an account.
+       The dialog offers two buttons: Remove (remove_account_dialog_button_remove) and Cancel.
+    -->
+    <!-- NOTE : retain tags  CDATA ul li, translate only text-->
+    <string name="remove_account_dialog_message">
+    <![CDATA[
+      Removing this account will <b>remove your ability</b> to generate codes, however, it will
+      <b>not</b> turn off 2-factor authentication. This may prevent you from signing into your
+      account.
+      <p>
+      Before removing:
+      <ul>
+        <li>Turn off 2-factor authentication for this account, or</li>
+        <li>Ensure you have an alternate mechanism for generating codes.</li>
+      </ul>
+    ]]>
+    </string>
+
+    <!--
+       Text (HTML) of the dialog displayed when the user attempts to remove a Google account.
+       The text differs slightly from remove_account_dialog_button_remove which is displayed
+       for non-Google accounts for which we don't know the exact effects of removing the account.
+       The dialog offers two buttons: Remove (remove_account_dialog_button_remove) and Cancel.
+    -->
+    <!-- NOTE : retain tags  CDATA ul li, translate only text-->
+    <string name="remove_google_account_dialog_message">
+    <![CDATA[
+        Removing this account will <b>remove your ability</b> to generate codes, however, it will
+        <b>not</b> turn off 2-step verification. This may prevent you from signing into your account.
+        <p>
+        Before removing:
+        <ul>
+          <li>Turn off 2-step verification for this account, or</li>
+          <li>Ensure you have an alternate mechanism for generating codes.</li>
+        </ul>
+      ]]>
+    </string>
+
+    <!-- Long-press menu item for an account, used to rename that account -->
+    <string name="rename">Rename Username</string>
+
+    <!--
+       Text in dialog shown when user selects "Rename" menu item for a given
+       account, with the parameter indicating existing account name
+    -->
+    <!-- NOTE : DO NOT TRANSLATE message inside xliff:g tag %1$s will be replaced with email id-->
+    <string name="rename_message">Rename <xliff:g id="account" example="mallory@gmail.com">%1$s</xliff:g></string>
+
+    <!--
+       Error message displayed when user tries to rename one account to the same
+       name as another existing account
+    -->
+    <string name="error_exists">Sorry, that name is already in use.</string>
+
+    <!--
+       TOTP account specific:
+       Text reported to the accessibility system (e.g., on screen reader)
+       when the user selects a counter-based account (from the account list)
+       for which no code is currently displayed/generated.
+       Pressing on the account row will generate the next verification
+       code.
+    -->
+    <string name="counter_pin">Get code</string>
+
+    <!-- Text on OK button for confirmation dialogs -->
+    <string name="ok">OK</string>
+
+    <!--
+       Label for the dropdown menu when adding new account manually.
+       Asking user to specify one of the two key types (counter vs. time)
+    -->
+    <string name="type_prompt">Type of key</string>
+
+    <!--
+       NOTE: order matters here and must be the same as AccountDb.TYPE_*
+       TODO(adhintz): make order not matter by using something like enums
+    -->
+    <!--
+       Different type of OTP accounts, displayed in drop-down menu when manually adding accounts.
+       Codes can be generated either based on time or based on an incrementing counter.
+    -->
+    <string-array name="type">
+        <item>Time based</item>
+        <item>Counter based</item>
+    </string-array>
+
+    <!-- Accessibility text for open left side slide drawer.
+
+         Note: AccessibilityServices use this attribute to announce what the view represents.
+               This is especially valuable for views without textual representation like ImageView.
+         [CHAR LIMIT=NONE]
+    -->
+    <string name="drawer_open">Open navigation drawer</string>
+
+    <!-- Accessibility text for close left side slide drawer.
+
+         Note: AccessibilityServices use this attribute to announce what the view represents.
+               This is especially valuable for views without textual representation like ImageView.
+         [CHAR LIMIT=NONE]
+    -->
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- Button text for import button in import screen -->
+    <string name="import_button">Import</string>
+
+    <!-- Label to pick a backup file in import screen -->
+    <string name="backup_text">Backup file</string>
+
+    <!-- Error message when trying to import old backup, in import screen -->
+    <string name="import_database_failed">Import failed, invalid file or password incorrect</string>
+
+    <!-- Success message after succeful import, in import screen and google authenticator import-->
+    <string name="import_google_auth_success">Successfully imported.</string>
+
+    <!-- Error message if import failed during Google Authenticator import -->
+    <string name="import_google_auth_failure">Import failed, check for root permission, contact support for help.</string>
+
+    <!-- Hint message displayed in import screen, this will be replaced by actual bacup fileaname after user picks it.-->
+    <string name="pick_backup_string">Select backup</string>
+
+    <!-- Left navigation drawer button, to contact support -->
+    <string name="send_feedback">Contact Support</string>
+
+    <!-- if file manager is not installed, prompt to install it, this is required to pick backup file for import.
+    due to app store restrictions, different strings are used for diffent app stores -->
+    <string name="app_not_installed_file_manager_amazon">File manager not available, please install from Amazon App Store.</string>
+    <string name="app_not_installed_file_manager_google">File manager not available, please install from Google Play Store.</string>
+    <string name="app_not_installed_file_manager_samsung">File manager not available, please install and try again.</string>
+
+    <!-- Error message to display if camera is not available for some reasons, will be displayed during add account -->
+    <string name="camera_not_available">Camera not available in the device.</string>
+
+    <!-- Success message after successful export of authplus.db in export screen -->
+    <string name="backup_success">Exported successfully</string>
+
+    <!-- Success message after successful export as encrypted zip(contains txt and html) in export screen -->
+    <string name="export_zip">Accounts are successfully exported and encrypted with your master password</string>
+
+    <!-- Export failed during export screen -->
+    <string name="backup_failure">Export failed</string>
+
+    <!-- Success message after restoring authplus.db or txt file -->
+    <string name="restore_success">Restore successful</string>
+
+    <!-- Error message when restore failed due to many possible reasons, can't decice what is the exact issue since data is encrypted
+    , so this generic message is dispayed -->
+    <string name="restore_failure">Restore failed, invalid file or password incorrect</string>
+
+    <!-- Error message when backup or export fails due to SD card issue, mostly in older devices -->
+    <string name="sdcard_not_available">Sdcard not available</string>
+
+    <!-- Messages displayed in circular progress screen during import, export, backup and restore -->
+    <!-- NOTE : reatin … this will be displayed ... in screen -->
+    <string name="dialog_import">Importing …</string>
+    <string name="dialog_backup">Backup …</string>
+    <string name="dialog_restore">Restoring …</string>
+    <string name="dialog_export_zip">Exporting …</string>
+
+    <!-- When user tries to edit an account during sync is in progress -->
+    <string name="sync_in_progress_no_edits">Edits are not allowed during sync</string>
+
+    <!-- When user tries to add battle.net accout but device is not connected to internet-->
+    <string name="internet_not_available_battlenet">Internet is required to add battle.net account, connect to internet and try again.</string>
+
+    <!-- General warning message when internet is not available for sync -->
+    <string name="internet_not_available_sync">Internet not available, sync will resume when you are online.</string>
+
+    <!-- Title of dialog for manual logo setting screen, Main screen -> Long press any account -> press picture button  -->
+    <string name="logo_set_title">Choose your service</string>
+
+    <!-- Error message when user tries to setup logo and internet is not connect -->
+    <string name="internet_not_available_logoset">Internet is required to download logo, please connect to internet and try again.</string>
+
+    <!-- On screen message displayed afte successful sync -->
+    <string name="sync_completed_changed">Sync completed.</string>
+
+    <!-- Settings -> Cloud Settings -> Sync with Dropbox -> Message in dialog -->
+    <!-- NOTE : This will be visible only if user never setup any cloud accounts till now -->
+
+    <!-- Title displayed in the dialog -->
+    <string name="dbx_link_title">Setup Dropbox sync</string>
+
+    <!--Settings title for backup and restore-->
+    <string name="export_title_other_apps">Export to other apps</string>
+    <string name="import_title_other_apps">Import from other apps</string>
+
+    <!-- Message displayed in the dialog -->
+    <string name="dropbox_hint">Dropbox is a free service that lets you bring your
+		photos, docs, and videos anywhere and share them easily.\n\n You can
+		link your existing account
+		or create a new account.</string>
+
+    <!-- Button message to link dropbox account -->
+    <string name="dbx_link_button">Link</string>
+
+    <!-- Button message to singup for dropbox account -->
+    <string name="dbx_signup_button">Signup</string>
+
+    <!-- Contact support -> Email id label -->
+    <string name="feedback_emailid_alt">Email ID</string>
+
+    <!-- Contact support -> Type of support required -->
+    <string-array name="feedback_type">
+        <item>Report a bug</item>
+        <item>Request to add new logo</item>
+        <item>Request new feature</item>
+        <item>Others</item>
+    </string-array>
+
+    <!-- Contact support -> Types of bug -->
+    <string-array name="feedback_bug_type">
+        <item>Please select</item>
+        <item>Sync is not working</item>
+        <item>Unable to load logo</item>
+        <item>Others</item>
+    </string-array>
+
+    <!-- Contact support -> Send button label -->
+    <string name="send">Send</string>
+
+    <!-- Contact support -> Hint to input minimum text before sending -->
+    <string name="feedback_message_hint">at least 10 characters</string>
+
+    <!-- Contact support -> message displayed in sending dialog -->
+    <string name="feedback_progress_text">Sending the feedback …</string>
+
+    <!-- Contact support -> thanks message after submitting feedback-->
+    <string name="feedback_thanks">Thanks for the feedback</string>
+
+    <!-- Contact support -> message displayed when user inputs invalid email id -->
+    <string name="feedback_no_email_warning">Please enter valid email ID</string>
+
+    <!-- Contact support -> when user submits feedback when he is offline a dialog message will be displayed -->
+    <!-- Title of the offline dialog -->
+    <string name="feedback_offline_title">Internet not available</string>
+
+    <!-- Message of the offline dialog -->
+    <string name="feedback_offline_message">Your feedback will be submitted when you are online,
+        connect to internet now to submit immediately.</string>
+
+    <!-- Settings -> Backup & Restore -> Authenticator Plus specific import titles-->
+    <string name="settings_import_authplus_title">Import from backup</string>
+    <string name="settings_backup_summary">Backup to Sd Card</string>
+    <string name="settings_restore_summary">Restore from Sd Card</string>
+
+    <!-- Settings -> Backup & Restore -> Export to other apps -> QR -->
+    <string name="settings_export_cat_qr_title">QR code</string>
+    <string name="settings_export_cat_qr_summary">Shows QR code for accounts</string>
+
+    <!-- Settings -> Backup & Restore -> Export to others apps -> text and html-->
+    <string name="settings_export_cat_zip_title">Export as Text and HTML</string>
+    <string name="settings_export_cat_zip_summary">Export accounts as text and html file in an encrypted zip</string>
+
+    <!-- Settings -> Backup & Restore -> Import from other apps -> import from text file -->
+    <string name="settings_import_cat_plain_title">Import from text file</string>
+    <string name="settings_import_cat_plain_summary">Import accounts from a plain text file</string>
+
+    <!-- Settings -> Backup & Restore -> Import from other apps -> Google Authenitcator-->
+    <string name="settings_import_legacy_summary">Import from Google Authenticator</string>
+    <string name="gauth_not_installed">Google Authenticator is not installed</string>
+
+
+    <!-- Settings -> Backup & Restore -> Import from other apps -> FreeOTP - will visible only if FreeOTP is installed -->
+    <string name="settings_import_freeotp_title">Import from FreeOTP</string>
+    <string name="freeotp_tokens_not_found">FreeOTP database not found. Nohting to import.</string>
+
+    <!-- Settings -> Backup & Restore -> Export to others apps -> Dialog displayed
+         which requests user to input master password  -->
+
+    <!-- Label in dailog -->
+    <string name="settings_export_dialog_title">Validate your master password to export</string>
+
+    <!-- Dialog title -->
+    <string name="settings_export_dialog_hint">Master password</string>
+
+    <!-- If master password is not correct -->
+    <string name="settings_export_dialog_invalid_pass">Master password is not matching</string>
+
+    <!-- Button in dialog -->
+    <string name="settings_export_dialog_validate">Validate</string>
+
+    <!-- Title of the main (top-level) preference/settings screen. -->
+    <string name="main_preference_screen_title">Settings</string>
+
+    <!-- Main Settings - below are individual entries in main settings screen-->
+    <string name="settings_title_cloud">Cloud</string>
+    <string name="settings_title_android_wear">Android Wear</string>
+    <string name="settings_title_backup_restore">Backup &amp; Restore</string>
+    <!-- NOTE : DO NOT TRANSLTE  &amp;-->
+    <string name="settings_title_security">Security</string>
+    <string name="settings_title_Others">Others</string>
+
+    <!-- Sub-category in main settings screen under which help related settings are displayed-->
+    <string name="setttings_category_help">Help</string>
+
+    <!-- Below are settings in Help sub-category -->
+    <string name="settings_translate_title">Translate to your language</string>
+    <string name="settings_faq_title">FAQ</string>
+    <string name="about_preference_title">About</string>
+    <string name="settings_rateus">Rate me</string>
+
+    <string name="title_wear_settings">Android Wear Settings</string>
+
+    <!-- Onscreen messsage displayed when user click Rate me from settings screen -->
+    <string name="settings_rateus_toast">Kindly add a comment</string>
+
+    <!-- Settings -> others -> Privacy-->
+    <string name="settings_privacy_cat_title">Privacy</string>
+
+    <!-- Settings -> others -> Privacy -> Google Analytics -->
+    <string name="settings_privacy_summary_off">Help us make better app by sending anonymous tracking data</string>
+
+    <!-- Settings -> Security - displayed in top of security settins, only visible to rooted users-->
+    <string name="settings_security_rooted">Your device is rooted</string>
+
+    <!-- Security -> PIN setup -->
+    <!-- Title when user tries to remove or change current PIN-->
+    <string name="current_pin">Enter your current PIN</string>
+
+    <!-- Message when entered pin is not matching with existing PIN-->
+    <string name="pins_are_mismatching">PINs are mismatching.</string>
+
+    <!-- PIN Lock - Sub-category in Security setttings -->
+    <string name="settings_security_pin_title">PIN Lock</string>
+
+    <!-- Settings -> Security -> Pin Lock -> Message displayed if user has rooted device-->
+    <!-- NOTE : DO NOT TRANSLTE ROOT\'d -->
+    <string name="settings_security_pin_cat_disable_summary">PIN lock cannot be disabled in ROOT\'d device.</string>
+
+    <!-- Settings -> Security -> Pin Lock -> Message displayed if user has rooted device and device
+         above kitkat with hardware support of hardware keys-->
+    <string name="settings_security_pin_cat_disable_summary_hw">PIN lock can be disabled if you enable hardware based key encryption</string>
+
+    <!-- Settings -> Security -> Pin Lock -> Success / failure messages when enabling / disabling PIN lock -->
+    <string name="settings_security_pin_enable_success_toast">PIN Lock enabled successfully.</string>
+    <string name="settings_security_pin_enable_failure_toast">Error in PIN lock setup.</string>
+    <string name="settings_security_pin_disable_success_toast">PIN Lock disabled successfully.</string>
+
+    <!-- Button text while enabling pin lock -->
+    <string name="enable_pin_lock">Enable PIN lock</string>
+
+    <!-- Button text while dsiabling pin lock -->
+    <string name="disable_pin_lock">Remove PIN lock</string>
+
+    <!-- Settings -> Security -> Pin Lock -> when disabling PIN lock user will be prompted to veify old PIN -->
+    <!-- User inputed wrong PIN for verification -->
+    <string name="settings_security_pin_disable_failure_toast">Unable to disable PIN lock, verify your current PIN.</string>
+
+    <!-- PIN Lock timeout - settings which deicde when to show it again after user unlocked it,
+        possible values are auto - decide or always  -->
+    <string name="settings_security_pin_timeout_title">Re-prompt PIN</string>
+
+    <!-- PIN Lock timeout - possible timeout values -->
+    <string-array name="pin_lock_timeout_entries">
+        <item>Auto decide</item>
+        <item>Always</item>
+    </string-array>
+
+    <!-- Advanced - Sub-category in Security setttings -->
+    <string name="settings_security_catetory_advanced_title">Advanced</string>
+
+    <!-- Settings -> Security -> Advanced -> Hardware backed keys - enabling this will used encryption keys from device's hardware which is an alternative to PIN -->
+    <string name="settings_security_keystore_key_title">Hardware backed keys</string>
+
+    <!-- Current status of encryption keys, by default sofware will be used, it can be hardware or software -->
+    <!-- {sw_or_hw} will be replaced by one of below possible values-->
+    <string name="settings_security_keystore_key_summary">Using {sw_or_hw} keys for encryption</string>
+
+    <!-- Value for {sw_or_hw}   -->
+    <string name="settings_security_keystore_hardware">Hardware backed</string>
+
+    <!-- value for {sw_or_hw} -->
+    <string name="settings_security_keystore_software">Software</string>
+
+    <!-- error message displayed if hardware backed encryption cannot be enabled -->
+    <string name="settings_security_keystore_set_failure">Unable set hardware backed keys for encryption, please try again</string>
+
+    <!-- error message displayed if hardware backed encryption cannot be disabled -->
+    <string name="settings_security_keystore_removed_failure">Still using hardware keys for encryption</string>
+
+    <!-- Settings -> Security -> Advanced -> Hardware backed keys -> info message displyed in supported devices-->
+    <string name="settings_security_keystore_explained">
+        <![CDATA[
+        <b><font color="red">EXPERIMENTAL FEATURE:</font></b><br/><br/>
+
+        Data will be encrypted with encryption keys provided by your device, since keys are stored in hardware which even Android cannot access,
+        its safer in rooted device too.<br/><br/>
+
+        <b>Important Note:</b><br/><br/>
+
+        Due to a <a href="https://code.google.com/p/android/issues/detail?id=61989">bug in Android</a>, changing secure lock settings (enabling or disabling PIN/Password/Pattern/Face locks)
+             resets the hardware backed keys too.<br/><br/>
+
+        You need to reenter your master password, if you make changes to secure lock settings.<br/><br/>
+
+        <a href="http://hardware.authenticatorplus.com">Learn more</a>
+        ]]>
+
+        <!-- Settings -> Security -> Advanced -> Hardware backed keys -> info message displyed in un supported devices-->
+
+    </string>
+        <string name="settings_security_keystore_explained_not_supported">
+        <![CDATA[
+        <b><font color="red">EXPERIMENTAL FEATURE:</font></b><br/><br/>
+
+        Your device does not support this feature.<br/><br/>
+
+        Data will be encrypted with encryption keys provided by your device, since keys are stored in hardware which even Android cannot access,
+        its safer in rooted device too.<br/><br/>
+
+        <a href="http://hardware.authenticatorplus.com">Learn more</a>
+        ]]>
+    </string>
+
+    <!-- Settings -> Security -> Advanced -> Hardware backed keys -> on enabling hardware backed keys, this message will be displayed if PIN is enabled, this hint user that PIN lock can be disabled-->
+    <string name="settings_security_keystore_success_pinlock_canberemoved">You have enabled PIN lock, you can disable it if you don\'t need.</string>
+
+    <!-- in rooted device either PIN lock or hardware backed kesy should be enabled-->
+    <!--Settings -> Security -> Advanced -> Hardware backed keys,  in rooted device if user tries to disable hardware backed key, without setting PIN lock a dilaog will be displayed to enable PIN lock-->
+    <string name="settings_security_keystore_remove_pindisabled_title">Rooted device</string>
+    <string name="settings_security_keystore_remove_pindisabled_message">
+        Your device is rooted and PIN lock is not set. \n\nSetup PIN lock to disable.
+    </string>
+
+
+    <string name="authactivity_sync_error_password_mismatch_title">Error in sync</string>
+    <string name="authactivity_sync_error_password_mismatch_title_import">Unable to import</string>
+    <string name="stub_missing_letmein">Let me in</string>
+    <string name="stub_missing_why_android_bug">
+        <![CDATA[
+            You have enabled Hardware backed keys.<br/><br/>
+
+            Due to a <a href="https://code.google.com/p/android/issues/detail?id=61989">bug in Android</a>, changing secure lock settings (enabling or disabling PIN/Password/Pattern/Face locks)
+             resets the hardware backed keys too.<br/><br/>
+
+            Reentering your master password will reinitialize the hardware keys.
+        ]]>
+    </string>
+
+    <string name="stub_missing_why_root_detected">
+        <![CDATA[
+            Your previous installation was used in non-rooted environment however its rooted now.<br/><br/>
+
+            All your security related data will be reinitialized which includes stored PIN,  master password and hardware backed keys settings.
+        ]]>
+    </string>
+
+    <string name="manual_learn_more">
+        <![CDATA[
+            <b>How to find secret or key ?</b><br/><br/>
+
+            In cases if you cannot scan the QR code, you can add an account by information provided by services. <br/><br/>
+
+            In setup 2 step verification page, you will find a section with text <b><i>Can\'t can the barcode?</i></b
+            > or similar text, enter the code provided in that section in the secret/key input field. <br/><br/>
+
+            <a href="https://lh6.googleusercontent.com/-s5YVt7COyII/VL0RLJqIdgI/AAAAAAAAAJ4/jyvbnaH0Nzs/w1067-h511-no/images-google_key_or_secret.png">Click here</a> to view screen shot for Google Account setup where key is visible.
+        ]]>
+    </string>
+
+
+    <string name="stub_missing_why_nonroot_detected">
+        <![CDATA[
+            Your previous installation was used in rooted environment however its non-rooted now.<br/><br/>
+
+            We need to reinitialize few data to safeguard your data.
+        ]]>
+    </string>
+
+
+    <string name="authactivity_sync_error_password_mismatch_desc">
+<![CDATA[
+        Unable to access the data found in your Dropbox account.
+        <br/><br/>
+        There can be two possibilities,
+
+<p>
+        <ol>
+            <li> Local master password and master password for Dropbox data is not matching.<br/>
+            <li> Corrupted / invalid data in Dropbox.
+        </ol>
+
+</p>
+
+        Visit below link for the possible fixes.<br/><br/>
+
+       <a href="http://passwordmismatch.authenticatorplus.com/"> Error in sync - Password mismatch or Corrupted data</a>
+
+        <br/>
+
+        ]]>
+    </string>
+    <string name="authactivity_sync_error_password_mismatch_desc_import">
+<![CDATA[
+        Unable to import your account from Dropbox account.
+        <br/><br/>
+        There can be two possibilities,
+
+<p>
+        <ol>
+            <li> Master password you have provided during import is not matching with accounts in Dropbox,
+            try changing your master password available under settings and sync again.<br/>
+            <li> Corrupted / invalid data in Dropbox.
+        </ol>
+
+</p>
+
+        Visit below link for the possible fixes.<br/><br/>
+
+       <a href="http://passwordmismatch.authenticatorplus.com/"> Error in sync - Password mismatch or Corrupted data</a>
+
+        <br/>
+
+        ]]>
+    </string>
+
+    <string name="authactivity_sync_error_password_mismatch_notification_desc">Click here to view the details</string>
+    <string name="backup_restoreasbundle_failed">Unable to retrieve encryption keys, please try again.</string>
+    <string name="logo_downloading_from_server">Checking for new logos from server …</string>
+
+    <string name="logo_found_unknown_issuer">Could not find logo for your new account. \n\nWould you like to request it?</string>
+    <string name="gauth_import_stub">Touch here to import accounts from Google Authenticator.</string>
+    <string name="logo_unknown">Could not find your logo? Contact us to add it.</string>
+    <string name="battlenet_serial_label">Serial : </string>
+    <string name="battlenet_code_label">Code : </string>
+    <string name="battlenet_username_label">Username : </string>
+    <string name="battlenet_username_empty">Cannot save empty username</string>
+    <string name="battlenet_menu_hint">Show battle.net details</string>
+    <string name="SecurID_menu_hint">Show SecurID details</string>
+    <string name="battlenet_dialog_title">battle.net details</string>
+    <string name="battlenet_dialog_details">
+        <![CDATA[
+          <b>Serial : </b>{serial}
+        ]]>
+    </string>
+    <string name="title_activity_feedback">Contact Support</string>
+    <string name="help_what_is_2step">
+         <![CDATA[
+           <b>What is 2-Step Verification?</b> <br/><br/>
+
+            2-Step Verification adds an extra layer of security to your Accounts.
+
+            With 2-Step Verification, you\'ll protect your account with both your password and your phone<br/><br/>
+
+            To break into an account with 2-Step Verification, bad guys would not only have to know your username and password, they\'d also have to get a hold of your phone.<br/><br/>
+
+            <b>How it works?</b><br/><br/>
+
+            <b>1. Enter your password</b><br/>
+            Whenever you sign in to your online accounts you\'ll enter your username and password as usual.<br/><br/>
+
+            <b>2. Enter a code from your phone</b><br/>
+            Then, you\'ll be asked for a code from Authenticator Plus app.<br/><br/>
+
+            Source : <a href="http://www.google.com/landing/2step/">http://www.google.com/landing/2step/</a>
+
+         ]]>
+    </string>
+    <string name="about_bottom_links">
+            <![CDATA[
+                <a href="http://beta.authenticatorplus.com"><b>How to download beta app?</b></a> <br/><br/>
+
+                <a href="http://release.authenticatorplus.com"><b>Change log</b></a> <br/><br/>
+
+                <a href="http://terms.authenticatorplus.com/terms.html"><b>Terms of service</b></a> <br/><br/>
+
+                <a href="http://privacy.authenticatorplus.com/privacy.html"><b>Privacy policy</b></a> <br/><br/>
+
+                <a href="http://license.authenticatorplus.com/license.html"><b>Open source licenses</b></a>  <br/><br/>
+            ]]>
+    </string>
+    <string name="developed_by"><![CDATA[Developed by <em><b>Mufri</b></em>]]></string>
+    <!--<string name="libraries">Libraries</string>-->
+    <string name="about_googleplus">https://plus.google.com/+Authenticatorplus</string>
+    <string name="about_www">https://www.authenticatorplus.com</string>
+
+    <string name="battlenet_notavailable">There was a problem contacting battle.net\'s server. Please check your network settings and try
+    again.</string>
+
+    <string name="battlenet_help_text">\n
+        <i>Authenticator Plus does not support restoring existing battle.net accounts. You need to remove any existing setup before setting up Authenticator Plus.</i>\n\n
+
+        1. Login to www.battle.net\//bma\n\n
+        2. If you are already using any battle.net authenticator, Click \'Remove Authenticator\' and follow the steps.\n\n
+        3. Click the \'Attach Authenticator\' under Mobile Authenticator section\n\n
+        4. Verify your email address in Step 1 and click continue in Step 2\n\n
+        5. Enter the above displayed serial and code in Step 3\n\n
+    </string>
+
+    <string name="setttings_advanced_change_password_title">Change master password</string>
+    <string name="setttings_advanced_change_password_key">setttings_advanced_change_password_key</string>
+    <string name="change_password_button">Change Password</string>
+    <string name="change_password_hint_current">Current password</string>
+    <string name="change_password_hint_new">New password</string>
+    <string name="change_password_hint_retype_new">Retype new password</string>
+    <string name="change_password_help">Password changed successfully.\n\nIf you have more than one device, you need to change the password individually in all the devices,
+        since your password is stored only locally.
+    </string>
+    <string name="change_password_mismatch">New passwords are not matching</string>
+    <string name="change_password_title">Password changed</string>
+    <string name="change_password_failure">Unable to change password</string>
+
+    <string name="import_storage_framework_hint">Enable Advanced devices from settings for internal storage</string>
+
+    <string name="legacy_import_db_not_found">Google Authenticator database not exists. Please try again.</string>
+    <string name="legacy_import_root_denied">Unable to gain root permission, make sure you grant root permission when prompted. Please try again.</string>
+    <string name="upgrade_desk">Unable to verify the app purchase.\n\nIf its a mistake kindly contact me through contact support menu.</string>
+    <string name="upgrade_buy_playstore">Download from Google Play Store</string>
+    <string name="upgrade_buy_appstore">Download from Amazon Appstore</string>
+    <string name="main_add_new_account">Add new account</string>
+    <string name="clipboard_label">Authenticator Plus Code</string>
+
+    <string name="reenter_master_password">Reenter your master password</string>
+    <string name="incorrect_master_password">Incorrect Master Password</string>
+    <string name="dialog_setup_pin_title">Input desired PIN (4 or more)</string>
+    <string name="dialog_setup_enter_pin">Enter PIN</string>
+    <string name="dialog_setup_reenter_pin">Reenter PIN</string>
+    <string name="invalid_password">Invalid Password</string>
+    <string name="setttings_change_pinlock_key">setttings_change_pinlock_key</string>
+    <string name="setttings_change_change_pin">Change PIN</string>
+    <string name="dialog_change_old_pin">Enter old PIN</string>
+    <string name="dialog_change_enter_pin">Enter new PIN</string>
+    <string name="dialog_change_reenter_pin">Reenter new PIN</string>
+    <string name="dialog_change_title">Enter old and new PINs</string>
+    <string name="dialog_change_password_title">Enter old and new passwords</string>
+    <string name="change_pin">Change PIN</string>
+    <string name="change">Change</string>
+    <string name="setup_pin_wrong_pin">Wrong PIN, please reenter PIN</string>
+    <string name="change_pin_wrong_old_pin">Old PIN is Wrong, please reenter</string>
+    <string name="change_password_wrong_old_password">Current password is Wrong, please reenter</string>
+    <string name="change_pin_new_pin_mismatch">New PINs are mismatching</string>
+    <string name="enter_master_password">Enter Master Password</string>
+    <string name="stub_missing_cred_title_noroot">Enter your Master Password</string>
+    <string name="stub_missing_cred_why"><u>Why?</u></string>
+    <string name="fragment_inital_statement">Better way to manage 2-step authentication</string>
+    <string name="fragment_inital_new_user">I\'m a new Authenticator Plus user</string>
+    <string name="fragment_inital_existing_user">I\'ve used Authenticator Plus before</string>
+    <string name="feedback_no_service">No service name</string>
+    <string name="authplus_demo"><u>Authenticator Plus demo</u></string>
+    <string name="what_is_2_step_verification"><u>What is 2-step verification?</u></string>
+    <string name="where_i_can_use"><u>Where all I can use 2-step verification?</u></string>
+    <string name="import_activity_invalid_text">Invalid text file</string>
+    <string name="import_activity_invalid_file">Invalid file</string>
+    <string name="help_thanks"><![CDATA[
+
+        Thank you for using Authenticator Plus.<br/><br/>
+
+        Please send your feedback using \'<b>Contact Support</b>\' menu inside app.<br/><br/>
+
+
+        —<br/>
+        Mufri<br>
+        Developer, Authenticator Plus.<br/><br/>
+
+        By continuing, you accept our <a href="http://terms.authenticatorplus.com">terms</a>
+        and <a href="http://privacy.authenticatorplus.com">privacy policy</a>.
+    ]]></string>
+    <string name="help_links"><u>Help Links</u></string>
+    <string name="no_service_name_hint">Unable to detect service name, enter name of the service and its website in message box</string>
+    <string name="category_edit_hint">Select accounts to be part of this category</string>
+    <string name="category_edit_input_hint">Category Name</string>
+    <string name="category_list_hint_text"> Drag on left to reorder / Touch on right to edit categories</string>
+    <string name="category_list_button">Create new category</string>
+    <string name="category_create">Create</string>
+    <string name="label_category">Categories</string>
+    <string name="label_edit_category">Edit category</string>
+    <string name="category_name_exists">Category name already in use, try a different one.</string>
+    <string name="share_text">I use and love Authenticator Plus for managing 2 factor accounts. Try it out here https://www.authenticatorplus.com/#downloads </string>
+    <string name="share_title">Recommend Authenticator Plus</string>
+    <string name="button_create_new_category">Create new category</string>
+    <string name="hint_category">Category</string>
+    <string name="button_new_to_dropbox">I\'m new to Dropbox</string>
+    <string name="x10_or_more_char">10 or more characters</string>
+    <string name="button_manage_categories">Manage Categories</string>
+    <string name="loading">Loading …</string>
+    <string name="account_added_to_category_prefix">Account added to </string>
+    <string name="account_removed_from_category_prefix">Account removed from </string>
+    <string name="gdrive_connection_failed_title">Unable to connect to logo server</string>
+    <string name="gdrive_connection_failed_adblock">Logo\'s are hosted in Google Drive, but your adblocking app not allowing to connect Google Drive. \n\n Please disable adblock and download logos or add https://googledrive.com to whitelist.</string>
+    <string name="gdrive_connection_failed_no_connection">Logo\'s are hosted in Google Drive, but we are unable to connect Google Drive. \n\n Please check if you can access https://googledrive.com.</string>
+    <string name="connecting_to_logo_server">Trying to download to logo …</string>
+    <string name="password_required">Password required</string>
+    <string name="devid_required">DevID required</string>
+    <string name="pin_required">PIN required</string>
+    <string name="invalid_import_file">Invalid import file</string>
+    <string name="pick_sdtid">Pick sdtid file from SDCard</string>
+    <string name="name_of_the_account">Name of the account</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_devid">Enter Device ID</string>
+    <string name="enter_pin_secuid">Enter PIN (if provided by admin)</string>
+    <string name="add_account">Add Account</string>
+    <string name="enter_token">Enter provided token</string>
+    <string name="token_required">Token is required</string>
+    <string name="invalid_input">Invalid input</string>
+    <string name="next_code">Next Code</string>
+    <string name="device_id">Device ID</string>
+    <string name="experimental_account_disclaimer">
+        Accounts which don\'t follow standard PIN generation (HOTP / TOTP) are experimental accounts.
+
+        \nOnce the account setup is done these experimental accounts are similar to other accounts\n\n
+
+        Service provider for these account might change how the account setup is done, which might break account setup from Authenticator Plus,
+        however already added accounts will continue to work normally.\n\n
+
+
+        <u>Legal notices:</u>\n\n
+
+        Authentictor Plus is not affiliated with or endorsed by RSA Security or Blizzard Entertainment.\n\n
+
+        Blizzard Entertainment, Inc. All rights reserved. Battle.net and Blizzard Entertainment are trademarks or registered trademarks of Blizzard Entertainment, Inc. in the U.S. and/or other countries.\n\n
+
+        RSA, RSA Security, SecurID and the RSA logo are either registered trademarks or
+        trademarks of RSA Security Inc. in the United States and/or other countries.
+        EMC is a registered trademark of EMC Corporation.
+    </string>
+    <string name="trial_version">TRIAL VERSION</string>
+    <string name="create_category">No categories, create one using \'Manage Categories\' in bottom</string>
+    <string name="title_activity_cloud_connect">Cloud Settings</string>
+    <string name="internet_not_available">Internet not available. Connect to internet and try again.</string>
+    <string name="google_play_services_not_available">Google Play services is required to use this feature.</string>
+    <string name="gcm_link_failed">Link failed, try again</string>
+    <string name="gcm_unlink_failed">Unlink failed, try again</string>
+    <string name="supported_root_only">Supported only in rooted device</string>
+    <string name="sync_not_set">Setup sync from Settings</string>
+    <string name="move_to_google_drive">Move to Google Drive</string>
+    <string name="setup_google_drive">Sync with Google Drive</string>
+    <string name="setup_dropbox">Sync with Dropbox</string>
+    <string name="google_drive">Google Drive</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="sync_setup_success">Automatic sync setup successful , accounts will be synchronized in background</string>
+    <string name="gdrive_setup_again">Error in Google Drive setup. Sign in again from cloud settings.</string>
+    <string name="signout">Sign out</string>
+    <string name="wear_not_connected">Not connected to Wear</string>
+    <string name="include_website">If you know website of this service, please include it here.</string>
+    <string name="show_external_accounts"><u>Show experimental accounts</u></string>
+    <string name="scan_3rd_party"><u>Scan using 3rd party scanner</u></string>
+    <string name="experimental_accounts_dialog_title">Experimental Accounts</string>
+    <string name="agree">Agree</string>
+    <string name="disagree">Disagree</string>
+    <string name="freeotp_warning">Accounts with settings like digits, algorithm, intervals which deviates from Authenticator Plus will not be imported.</string>
+    <string name="custom_logo">Custom Logo</string>
+
+    <!-- PIN LOCK -->
+    <string name="pin_setup_hint">4 or more digits</string>
+    <string name="pin_setup_button">Setup PIN</string>
+    <string name="get_pin_button">Enter your current PIN</string>
+
+    <!-- Failed attempts to unlock PIN lock -->
+    <!-- PIN lock entries / attempt to unlock will be blocked for certain time -->
+
+    <!-- this is remaining time for user to wait before retry counter, this message will be displayed after
+    unsuccessful attempts and retry timer will be displayed-->
+    <string name="failed_pin_attempts_dialog_message">
+              You have incorrectly typed your PIN <xliff:g id="number">%d</xliff:g> times.
+              \n\nTry again in <xliff:g id="number">%d</xliff:g> seconds.
+    </string>
+
+    <!-- this is remaining time for user to wait before retry, it will automatically decrement-->
+    <string name="failed_attempts_countdown">Try again in <xliff:g id="number">%d</xliff:g> seconds.</string>
+
+    <!-- last attempt left before wiping the data -->
+    <string name="failed_attempts_almost_at_wipe" product="default">
+      You have incorrectly attempted to unlock the app <xliff:g id="number">%d</xliff:g> times.
+     After <xliff:g id="number">%d</xliff:g> more unsuccessful attempts,
+      the app will be reset to factory default and all user data will be lost.
+   </string>
+
+    <!-- all attempts to unlock failed, now app will erase all it local data-->
+    <string name="failed_attempts_now_wiping">
+       You have incorrectly attempted to unlock the app <xliff:g id="number">%d</xliff:g> times.
+       The app data will now be reset.
+    </string>
+
+    <!-- String describing the image on ImageButton one
+
+         Note: AccessibilityServices use this attribute to announce what the view represents.
+               This is especially valuable for views without textual representation like ImageView.
+         [CHAR LIMIT=NONE]
+    -->
+    <string name="description_image_button_one">one</string>
+
+    <!-- String describing the image on ImageButton two
+
+         Note: AccessibilityServices use this attribute to announce what the view represents.
+               This is especially valuable for views without textual representation like ImageView.
+         [CHAR LIMIT=NONE]
+    -->
+    <string name="description_image_button_two">two</string>
+
+    <!-- String describing the image on ImageButton three
+
+         Note: AccessibilityServices use this attribute to announce what the view represents.
+               This is especially valuable for views without textual representation like ImageView.
+         [CHAR LIMIT=NONE]
+    -->
+    <string name="description_image_button_three">three</string>
+
+    <!-- String describing the image on ImageButton four
+
+         Note: AccessibilityServices use this attribute to announce what the view represents.
+               This is especially valuable for views without textual representation like ImageView.
+         [CHAR LIMIT=NONE]
+    -->
+    <string name="description_image_button_four">four</string>
+
+    <!-- String describing the image on ImageButton five
+
+         Note: AccessibilityServices use this attribute to announce what the view represents.
+               This is especially valuable for views without textual representation like ImageView.
+         [CHAR LIMIT=NONE]
+    -->
+    <string name="description_image_button_five">five</string>
+
+    <!-- String describing the image on ImageButton six
+
+         Note: AccessibilityServices use this attribute to announce what the view represents.
+               This is especially valuable for views without textual representation like ImageView.
+         [CHAR LIMIT=NONE]
+    -->
+    <string name="description_image_button_six">six</string>
+
+    <!-- String describing the image on ImageButton seven
+
+         Note: AccessibilityServices use this attribute to announce what the view represents.
+               This is especially valuable for views without textual representation like ImageView.
+         [CHAR LIMIT=NONE]
+    -->
+    <string name="description_image_button_seven">seven</string>
+
+    <!-- String describing the image on ImageButton eight
+
+         Note: AccessibilityServices use this attribute to announce what the view represents.
+               This is especially valuable for views without textual representation like ImageView.
+         [CHAR LIMIT=NONE]
+    -->
+    <string name="description_image_button_eight">eight</string>
+
+    <!-- String describing the image on ImageButton nine
+
+         Note: AccessibilityServices use this attribute to announce what the view represents.
+               This is especially valuable for views without textual representation like ImageView.
+         [CHAR LIMIT=NONE]
+    -->
+    <string name="description_image_button_nine">nine</string>
+
+    <!-- String describing the image on ImageButton star
+
+         Note: AccessibilityServices use this attribute to announce what the view represents.
+               This is especially valuable for views without textual representation like ImageView.
+         [CHAR LIMIT=NONE]
+    -->
+    <string name="description_image_button_star">star</string>
+
+    <!-- String describing the image on ImageButton zero
+
+         Note: AccessibilityServices use this attribute to announce what the view represents.
+               This is especially valuable for views without textual representation like ImageView.
+         [CHAR LIMIT=NONE]
+    -->
+    <string name="description_image_button_zero">zero</string>
+
+    <!-- String describing the image on ImageButton pound
+
+         Note: AccessibilityServices use this attribute to announce what the view represents.
+               This is especially valuable for views without textual representation like ImageView.
+         [CHAR LIMIT=NONE]
+    -->
+    <string name="description_image_button_pound">Enter</string>
+
+    <!-- String describing the Delete/Backspace ImageButton
+
+         Used by AccessibilityService to announce the purpose of the button.
+         [CHAR LIMIT=NONE]
+    -->
+    <string name="description_delete_button">backspace</string>
+
+    <!-- Message displayed when user inputs wrong PIN in PIN lock -->
+    <string name="incorrect_pin">Incorrect PIN</string>
+
+    <!-- Label for master passwor in import screen -->
+    <string name="prompt_password">Master Password</string>
+    <string name="error_backuppath_required">Please select a backup file</string>
+    <string name="setup_pin">Setup PIN</string>
+    <string name="show_password">Show Password</string>
+    <string name="reenter">Renter PIN</string>
+    <string name="login_pin_not_matching">PINs are not matching</string>
+    <string name="please_wait">Please wait</string>
+
+    <!-- Title of the preference screen to configure the correction of the app's internal time. -->
+    <string name="timesync_preference_screen_title">Time correction for codes</string>
+
+    <!-- Summary of the preference screen to configure the correction of the app's internal time. -->
+    <string name="timesync_preference_screen_summary">
+        Use this to sync time for all other accounts
+    </string>
+
+    <string name="timesync_preference_screen_summary_battlenet">
+        Use this to sync time for battle.net accounts
+    </string>
+
+    <!-- Title of the preference to sync the app's internal time with Google. -->
+    <string name="timesync_sync_now_preference_title">Sync with Google</string>
+    <string name="timesync_sync_now_preference_title_battlenet">Sync with battle.net</string>
+
+    <!--Settings -> Others -> About Time correction-->
+    <string name="timesync_about_feature_preference_summary">How time correction works</string>
+
+    <!-- Title of the preference to display more information about the Time Correction feature. -->
+    <string name="timesync_about_feature_preference_title">About this feature</string>
+
+    <!-- Title of the screen descirbing the Time correction/sync feature in detail. -->
+    <string name="timesync_about_feature_screen_title">Time Correction</string>
+
+    <!-- Text (HTML) of the screen describing the Time correction/sync feature in detail. -->
+  <string name="timesync_about_feature_screen_details">
+    <![CDATA[
+      If you press &quot;Sync now&quot;, Authenticator Plus will attempt to sync its internal clock with
+      Google or Battle.net servers once. The device\'s Date & Time settings will not be changed.
+      <p>
+      Authenticator Plus does not transmit any personal data or account information while synchronizing
+      its internal clock with Google servers.
+      <p>
+      <b>Why this is useful</b>
+      <p>
+      Authenticator Plus generates 2-step verification codes based on 1) the current time, and 2) a
+      secret number known to the app and the server.
+      <p>
+      If Authenticator Plus and the server disagree on what time it is, the codes that the app generates
+      may not be accepted when you try to log in.
+      <p>
+      By default Authenticator Plus uses the device\'s Date & Time settings, and in most cases you will
+      be able to generate valid codes by making sure your time, date, and time zone settings are
+      configured correctly.  However, when time mismatches do occur, they can be hard to
+      troubleshoot (especially if you use network-provided time or time zones).
+    ]]>
+  </string>
+
+    <!-- Title of the screen that syncs/corrects the app's internal time with Google servers. -->
+    <string name="timesync_sync_now_screen_title">Sync now</string>
+
+    <!-- Title of the progress dialog displayed when contacting Google servers to correct the app's
+         internal time. -->
+    <string name="timesync_sync_now_progress_dialog_title">Sync now</string>
+
+    <!-- Details of the progress dialog displayed when contacting Google servers to correct the app's
+         internal time. -->
+    <string name="connecting_to_server">Connecting to server&#8230;</string>
+
+    <!-- Title of the dialog displayed after the application contacted Google servers and
+         corrected its internal time. -->
+    <string name="timesync_sync_now_time_corrected_dialog_title">Time corrected</string>
+
+    <!-- Details of the dialog displayed after the application contacted Google servers and
+         corrected its internal time. -->
+    <string name="timesync_sync_now_time_corrected_dialog_details">
+    Authenticator Plus\'s internal clock has been adjusted to match the time provided by Google servers.
+    \n\nThe Date &amp; Time settings on this device have not been changed.
+    </string>
+
+    <string name="timesync_sync_now_time_corrected_dialog_details_battlenet">
+    Authenticator Plus\'s internal clock has been adjusted to match the time provided by battle.net servers.
+    \n\nThe Date &amp; Time settings on this device have not been changed.
+    </string>
+
+    <!-- Title of the dialog displayed after the application encountered a network connectivity error
+         while trying to contact Google servers to see if its internal time needs to be
+         corrected. -->
+    <string name="timesync_sync_now_connectivity_error_dialog_title">Sync now</string>
+
+    <!-- Details of the dialog displayed after the application encountered a network connectivity
+         error while trying to contact Google servers to see if its internal time needs to be
+         corrected. -->
+    <string name="timesync_sync_now_connectivity_error_dialog_details">
+    There was a problem contacting Google\'s server. Please check your network settings and try
+    again.
+    </string>
+
+    <!-- App setup screens, for new and existing users-->
+    <!-- Buttons used in bottom of the setup screens-->
+    <string name="next">Next</string>
+    <string name="prev">Previous</string>
+    <string name="finish">Go to App</string>
+
+    <!--Thanks title-->
+    <string name="all_set_go">Thank you</string>
+
+    <!-- for new users, request master password and explain why its required-->
+    <string name="wizard_password_hint">
+        All of your data is protected by your Master Password.\n\nMaster password is required for restoring your data and syncing with other devices.
+        \n\nWe recommend writing it down and storing it somewhere very secure.
+    </string>
+
+    <!-- for existing users, request master password he used during prevous setups-->
+    <string name="wizard_password_hint_old">
+        Enter your Master Password you have setup in previous installations.
+    </string>
+
+    <!-- translate only New to Dropbox?-->
+    <string name="new_to_dropbox">
+        <![CDATA[
+        <a href="https://db.tt/qu5jO8p9">New to Dropbox?</a>
+        ]]>
+    </string>
+
+    <string name="new_to_dropbox_hint">New to Dropbox?</string>
+    <string name="fragment_sync_title">Backup &amp; Sync</string>
+    <string name="fragment_sync_desc">Please choose how you would like to sync your data.</string>
+    <string name="fragment_sync_btn_auto">Backup using Dropbox</string>
+    <string name="fragment_sync_btn_gdrive">Backup using Google Drive</string>
+    <string name="fragment_sync_btn_manual">Manual backup &amp; sync</string>
+    <string name="fragment_import_title">Import</string>
+    <string name="fragment_import_desc">Accounts from manual sync can be imported using Import menu under settings</string>
+    <string name="fragment_import_manual">Import manually</string>
+    <string name="fragment_import_dropbox">Import from Dropbox</string>
+    <string name="fragment_import_gdrive">Import from Google Drive</string>
+    <string name="fragment_pin_desc">Your device is rooted.\n\nFor additional protection your data will be protected with PIN.</string>
+
+    <!--Settings -> Android Wear-->
+    <string name="wear_connection_status">Wear connection status</string>
+    <string name="wear_last_synced">Last synced</string>
+    <string name="wear_force_sync">Sync with Wear</string>
+    <string name="wear_how_to_open">How to open in Wear?</string>
+    <string name="wear_how_to_open_summary">Say \'Start Authenticator\' or click here</string>
+    <string name="wear_advanced_info">Advanced info</string>
+    <string name="wear_security_summaryoff">PIN will be shown only if watch is paired with mobile</string>
+    <string name="wear_security_summaryon">PIN will be shown even if watch is not paired with mobile</string>
+    <string name="wear_security_title">Always show PIN</string>
+
+    <!-- In some rare cases, Google Drive sync will fail due to server issues, notify user to try sync later-->
+    <string name="limit_exceeded">Trouble in connecting to Google servers, if your accounts are not in sync please try to sync after sometime.</string>
+
+    <!-- show this when user long press an account and press add category,
+    but no categories are created yet-->
+    <string name="no_categories">No categories</string>
+
+    <!-- Toolbar button text to clear the filter made by Cloud push from chrome extension
+    or search from Google Now -->
+    <string name="toolbar_button_clear_filter">Show all accounts</string>
+
+    <!--When user add an account and its logo is not found in our database,
+    notify user if he wants to request for it, below are the buttons used for it-->
+    <string name="logo_request_hint_no_thanks">No thanks</string>
+    <string name="logo_request_hint_yes">Yes</string>
+
+    <!--this will be displayed in keyboards as hint for submit or next in place of enter button-->
+    <string name="ime_label_done">Done</string>
+    <string name="ime_label_validate">Validate</string>
+    <string name="ime_label_enable_pin">Enable PIN</string>
+
+    <!--Settings -> Cloud-->
+    <string name="settings_cloud_connect_account_title">Account</string>
+    <string name="settings_cloud_connect_provider_title">Provider</string>
+
+    <!-- In some cases, google will request to relogin, prompt user to relogin-->
+    <string name="settings_cloud_connect_google_drive_signin_error">Google Drive - Sign in again</string>
+    <string name="settings_cloud_connect_google_drive_signin_error_summary">Sign in Error</string>
+
+</resources>
